@@ -1,0 +1,131 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Trufas",
+		"_postman_id": "38d12ef4-b1e1-b27b-3958-fed50bf1818b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listar Todas Encomendas",
+			"request": {
+				"url": "localhost:8081/encomenda",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\": \"Lucas\",\n\t\"email\": \"lucas.maia@gmail.com\",\n\t\"celular\": \"2197985478\",\n\t\"endereco\":{\n\t\t\"endereco\": \"Rua do lado\",\n\t\t\"cep\":\"24894890\"\n\t},\n\t\"quantidadeTrufas\":10,\n\t\"sabores\":\"Chocolate, morango\",\n\t\"dataEntrega\": \"12/12/2018\",\n\t\"embaladas\": true,\n\t\"observacoes\":\"Envio Rápido\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Salvar Encomenda",
+			"request": {
+				"url": "localhost:8081/encomenda",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\": \"Lucas\",\n\t\"email\": \"lucas.maia@gmail.com\",\n\t\"celular\": \"2197985478\",\n\t\"endereco\":{\n\t\t\"endereco\": \"Rua do lado\",\n\t\t\"cep\":\"24894890\"\n\t},\n\t\"quantidadeTrufas\":10,\n\t\"sabores\":\"Chocolate, morango\",\n\t\"dataEntrega\": \"12/12/2018\",\n\t\"embaladas\": true,\n\t\"observacoes\":\"Envio Rápido\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Trufas",
+			"request": {
+				"url": "localhost:8081/trufas",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\": \"Trufa de Chocolate\",\n\t\"preco\": \"70\",\n\t\"foto\": \"http://s.glbimg.com/po/rc/media/2014/01/29/11_17_37_776_trufa_de_chocolate_deliciosas_receita_e_bombons3.jpg\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Salvar Trufa",
+			"request": {
+				"url": "localhost:8081/trufas",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\": \"Trufa de Chocolate\",\n\t\"preco\": \"70\",\n\t\"foto\": \"http://s.glbimg.com/po/rc/media/2014/01/29/11_17_37_776_trufa_de_chocolate_deliciosas_receita_e_bombons3.jpg\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Salvar Contato",
+			"request": {
+				"url": "localhost:8081/contato",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"Lucas\",\n\t\"assunto\":\"Trufas\",\n\t\"mensagem\":\"Cade minhas trufas?\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Contato",
+			"request": {
+				"url": "localhost:8081/contato",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"Lucas\",\n\t\"assunto\":\"Trufas\",\n\t\"mensagem\":\"Cade minhas trufas?\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,17 @@
+trufas/carioca/controller/ContatoController.class
+trufas/carioca/service/ContatoImpl.class
+trufas/carioca/repository/TrufasRepository.class
+trufas/carioca/controller/TrufasController.class
+trufas/carioca/repository/ContatoRepository.class
+trufas/carioca/service/EncomendaImpl.class
+trufas/carioca/domain/Endereco.class
+trufas/carioca/domain/Encomenda.class
+trufas/carioca/service/ContatoService.class
+trufas/carioca/service/TrufasServiceImpl.class
+trufas/carioca/CariocaApplication.class
+trufas/carioca/service/TrufasService.class
+trufas/carioca/repository/EncomendaRepository.class
+trufas/carioca/controller/EncomendaController.class
+trufas/carioca/service/EncomendaService.class
+trufas/carioca/domain/Trufas.class
+trufas/carioca/domain/Contato.class

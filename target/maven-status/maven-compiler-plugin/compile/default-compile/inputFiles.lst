@@ -1,0 +1,17 @@
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/controller/TrufasController.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/service/TrufasServiceImpl.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/domain/Encomenda.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/CariocaApplication.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/repository/EncomendaRepository.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/controller/ContatoController.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/service/ContatoImpl.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/repository/TrufasRepository.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/service/ContatoService.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/domain/Trufas.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/repository/ContatoRepository.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/service/EncomendaImpl.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/domain/Contato.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/service/TrufasService.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/domain/Endereco.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/service/EncomendaService.java
+/home/lucas/dev/projetos/carioca/src/main/java/trufas/carioca/controller/EncomendaController.java
